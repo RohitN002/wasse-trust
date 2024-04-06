@@ -1,0 +1,52 @@
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+.dropdowncls{
+display: inline-block;
+}
+.li{
+ list-style-type:none
+}
+.nav-link {
+  transition: all 0.2s;
+}
+.nav-link:hover{
+  text-decoration:none;
+  border-bottom: 2px solid white;
+}
+
+.dropdowncls button{
+  background-color: aliceblue;
+  color:black ;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdowncls addbtn{
+  display: block;
+  color:black ;
+  text-decoration: none;
+  padding: 10px 15px
+}
+
+.dropdowncls .content {
+  display: none;
+  position: absolute;
+  background: rgb(19, 18, 16);
+  min-width: 100px;
+  box-shadow: 2px 2px 5px hsl(0, 0, 0.796);
+
+}
+
+.dropdowncls:hover .content {
+display: block;
+}
+
+.dropdowncls:hover button{
+  background-color: aqua;
+}
+
+.dropdowncls a:hover {
+background-color: wheat;
+}

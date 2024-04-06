@@ -18,12 +18,7 @@ const Text = [line1, line2,line3,line4,line5,line6,line7,line8,line9,line10,line
     </div>
   ))
   }
-    <div class="dropdown show">
-  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Dropdown link
-  </a>
-
-  </div>
+   
     {/* <h1>{t("greeting")}</h1>
     <span>{line1}</span>
     <br />

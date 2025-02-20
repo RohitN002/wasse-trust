@@ -11,7 +11,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className='bg-light'>
-{/*     <Navbar/>
+    <Navbar/>
     <LanguageSelector/>
    
     <Routes>
@@ -21,7 +21,7 @@ const App = () => {
       <Route path='/ContactUs' element={<ContactUs />} />
     
     </Routes>
-    <Footer/> */}
+    <Footer/>
     </div>
    
   )
